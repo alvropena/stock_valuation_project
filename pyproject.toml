@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stock-valuation-project"
+version = "0.1.0"
+description = "AI Stock Valuation"
+authors = ["alvropena"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.114.2"
+uvicorn = "^0.30.6"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
